@@ -3,8 +3,20 @@
 @tailwind components;
 @tailwind utilities;
 
-.homepage {
-  @apply absolute flex justify-center items-center w-screen pt-12;
+.page {
+  @apply absolute flex-col w-full h-full min-h-screen pt-16;
+}
+
+.container-page {
+  @apply flex flex-col flex-1 w-full h-full justify-between;
+}
+
+.container-link {
+  @apply text-center px-4 w-1/2 md:w-1/2 sm:w-full xs:w-full m-auto space-y-4;
+}
+
+.footer {
+  @apply flex space-x-2 justify-center items-center py-4;
 }
 
 .text-link {
