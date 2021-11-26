@@ -5,7 +5,7 @@ import panda from '../img/panda.png'
 export default function Home() {
     return (
         <div className="page">
-            <div className="">
+            <div className="container-page">
                 <div className="space-y-7 m-auto h-full w-full">
                     <div className="flex justify-center">
                         <img className="rounded-full w-24" src={foto} alt="" />
