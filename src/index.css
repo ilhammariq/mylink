@@ -1,8 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.homepage {
+  @apply absolute flex justify-center items-center w-screen pt-12;
+}
+
+.text-link {
+  @apply text-xl py-2 font-bold;
+}
+
+.box-link {
+  @apply border-2 rounded-lg hover:bg-white text-white hover:text-black transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Amatic SC', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
