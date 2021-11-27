@@ -4,15 +4,19 @@
 @tailwind utilities;
 
 .page {
-  @apply absolute flex-col w-full h-full min-h-screen pt-16;
+  @apply flex flex-col relative pb-0 overflow-x-hidden w-full h-full min-h-screen;
 }
 
 .container-page {
-  @apply flex flex-col flex-1 w-full h-full justify-between;
+  @apply flex flex-1 flex-col justify-between py-6 px-3 h-full w-full;
+}
+
+.container-content {
+  @apply space-y-7 mx-auto my-0 h-full w-full max-w-7xl pb-4;
 }
 
 .container-link {
-  @apply text-center px-4 w-1/2 md:w-1/2 sm:w-full xs:w-full m-auto space-y-4;
+  @apply text-center w-1/2 md:w-1/2 sm:w-full xs:w-full m-auto space-y-4;
 }
 
 .footer {

@@ -12,7 +12,7 @@ export default class Home extends Component {
             <div>
                 <div className="page">
                     <div className="container-page">
-                        <div className="space-y-7 m-auto h-full w-full">
+                        <div className="container-content">
                             <div className="flex justify-center">
                                 <img className="rounded-full w-24" src={foto} alt="" />
                             </div>
@@ -65,14 +65,15 @@ export default class Home extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="footer">
-                            <img className="w-12 bg-white rounded-full" src={panda} alt="" />
-                            <p className="text-white text-xl font-bold">Panda Coding 2021</p>
+                        <div>
+                            <div className="footer">
+                                <img className="w-12 rounded-full" src={panda} alt="" />
+                                <p className="text-white text-xl font-bold">Panda Coding 2021</p>
+                            </div>
                         </div>
                     </div>
-
                 </div>
-            </div>
+            </div >
         )
     }
 }

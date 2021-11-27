@@ -11,6 +11,13 @@ module.exports = {
       xl: { min: '1159px' }, // Desktop wide.
       xxl: { min: '1359px' } // Desktop widescreen.
     },
+    zIndex: {
+      '-1': -1,
+      '0': 0,
+      '10': 10,
+      '20': 20,
+      'auto': 'auto',
+    }
   },
   variants: {
     extend: {},
